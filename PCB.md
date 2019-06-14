@@ -93,8 +93,7 @@ copper solder braid or wick to remove all the solder in one go.
 
 ![Shorts_3](https://github.com/PaulZC/Iridium_9603_Beacon/blob/master/img/Shorts_3.JPG)
 
-Solder any remaining surface mount components by hand and then use a cotton bud (q-tip) dipped in Iso-Propyl Alcohol
-(IPA / Propanol / rubbing alcohol) to remove any flux residue.
+Use a cotton bud (q-tip) dipped in Iso-Propyl Alcohol (IPA / Propanol / rubbing alcohol) to remove any flux residue.
 
 All being well, your PCB should look like this:
 
