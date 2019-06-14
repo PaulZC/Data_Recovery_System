@@ -1,3 +1,7 @@
+# PI.md
+
+This guide contains instructions on how to configure the Raspberry Pi for use on the DRS.
+
 1. Burn the latest Raspberry Pi Raspbian onto the 512GB micro SD card
 - Visit https://www.raspberrypi.org/downloads/
 - Download the latest "Raspbian Stretch with desktop and recommended software"
@@ -30,7 +34,7 @@
 
 10. (You can start an X session if you want to using startx)
 
-11. Remove Wolfram and LibreOffice to fee up some storage space
+11. Remove Wolfram and LibreOffice to free up some storage space
 - sudo apt-get purge wolfram-engine
 - sudo apt-get clean
 - sudo apt-get autoremove

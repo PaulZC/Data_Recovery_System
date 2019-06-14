@@ -1,7 +1,7 @@
 # Data_Recovery_System
 
 
-### ! Work In Progress !
+### ! Still Work In Progress - but more complete than it was !
 
 This is the repository for the SuperBIT Data Recovery System (a.k.a. the data drop capsule).
 
@@ -18,7 +18,7 @@ The DRS comprises:
 - Iridium 9603N Short Burst Data modem
 - Maxtena M1600HCT-P-SMA antenna, shared via a Skyworks AS179-92LF RF switch
 - two [servo-actuated](https://www.servoshop.co.uk/index.php?pid=HITHS82MG&area=Servo)
-[Scott Archery release aids]((https://scottarchery.com/collections/releases/products/shark-release): one for the tether and one for the parachute
+[Scott Archery release aids](https://scottarchery.com/collections/releases/products/shark-release): one for the tether and one for the parachute
 - [Rocketman 4' parachute](https://the-rocketman.com/recovery-html/)
 - Low extraction force power connector
 - 3D-printed cover
@@ -29,9 +29,15 @@ See [LEARN.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/LEARN.
 
 [PCB.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PCB.md) contains instructions on how to populate and test the PCB.
 
+[PI.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PI.md) contains instructions on how to configure the Raspberry Pi.
+
 [ASSEMBLY.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/ASSEMBLY.md) contains instructions on how to prepare the DRS for flight.
 
-[PI.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PI.md) contains instructions on how to configure the Raspberry Pi.
+[GoGoGo.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/GoGoGo.md) contains instructions on how to release and track the DRS.
+
+The schematic, PCB layout and Bill Of Materials can be found in [Data_Recovery_System_V1.pdf](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/Data_Recovery_System_V1.pdf)
+
+The BOM is also available in [Excel .xlsx format](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/Data_Recovery_System_BOM.xlsx)
 
 The [Eagle](https://github.com/PaulZC/Data_Recovery_System/tree/master/Eagle) directory contains the schematic and pcb design files.
 
