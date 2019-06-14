@@ -1,4 +1,4 @@
-# PI.md
+# Raspberry Pi Configuration
 
 This guide contains instructions on how to configure the Raspberry Pi for use on the DRS.
 
