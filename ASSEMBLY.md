@@ -2,7 +2,7 @@
 
 This guide contains instructions on how to assemble and configure the DRS.
 
-If your DRS has been assembled previously and you only want to make it ready for flight, the please skip forward to Step n.
+If your DRS has been assembled previously and you only want to make it ready for flight, the please skip forward to [Step 8](https://github.com/PaulZC/Data_Recovery_System/blob/master/ASSEMBLY.md#step-8-attach-the-tether-and-parachute).
 
 ## Prerequisites
 
@@ -63,7 +63,7 @@ If your DRS has been assembled previously and you only want to make it ready for
 
 ## Step 5: Configure the servo positions
 
-The open and closed servo positions for DRS1-5 are included in the Arduino code. Only follow this procedure is the positions need to be modified (e.g. after removing the arm from a servo) or you are using a new PCB
+The open and closed servo positions for DRS1-5 are included in the Arduino code. Only follow this procedure if the positions need to be modified (e.g. after removing the arm from a servo) or you are using a new PCB
 
 The servos cannot be moved unless: at least one 9V battery has been installed; the latching relay is 'ON'.
 
@@ -73,7 +73,7 @@ The 'ON' and 'OFF' buttons, which control the state of the latching relay, are o
 
 - Connect 24V DC power to the power connector. If connecting to the 4-pin header: the two outer pins are 0V; the two inner pins are 24V
 - The Pi will boot up and attempt to connect to WiFi
-- If WiFi is not available, you can connect a laptop to the Pi using the Ethernet port. The Pi acts as a DHCP server (see step 25 in [PI.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PI.md))
+- If WiFi is not available, you can connect a laptop to the Pi using the Ethernet port. The Pi acts as a DHCP server (see steps 25-29 in [PI.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PI.md))
 - Clip a 9V battery into one set of battery clips (only one battery is required, not two)
 - Press the ON button to enable power for the servos
 - To place the DRS into 'Set Servo A' mode:
@@ -169,7 +169,7 @@ Before powering down the DRS, so you can finish the assembly, please check:
 - The 3D printed case is made from two identical parts which clip together with a simple tongue and groove joint
 - Apply a thin layer of silicone sealant across the 'wall' pieces in each half of the case that divide the servos and releases from the Raspberry Pi
 - Place the PCB into the bottom half of the case
-- Position the top half and press toegther to engage the tongue and groove joint
+- Position the top half and press together to engage the tongue and groove joint
 - Tape the two halves of the case together using a long length of duct tape. Ensure that the ends of the tape are folded over into tabs. These will be useful when pulling the case out of the foam enclosure (it is a tight fit!)
 
 ![DRS_Assembly_1](https://github.com/PaulZC/Data_Recovery_System/blob/master/img/DRS_Assembly_1.JPG)

@@ -2,14 +2,14 @@
 
 Instructions on how to enable, release and track the DRS.
 
-Also included are instructions on how to reset the microcontroller from 'Gone' mode into 'Waiting for GoGoGo' mode (required after performing a drop / test drop).
+Also included are [instructions](https://github.com/PaulZC/Data_Recovery_System/blob/master/GoGoGo.md#step-10-resetting-the-microcontroller) on how to reset the microcontroller from 'Gone' mode into 'Waiting for GoGoGo' mode (required after performing a drop / test drop).
 
 ## Prerequisites
 
 - The DRS should have been prepared following the instructions in [ASSEMBLY.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/ASSEMBLY.md)
 - The Raspberry Pi should have been configured for SuperBIT WiFi and have the [DRS_Python_Tools](https://github.com/PaulZC/DRS_Python_Tools) installed following the instructions in [PI.md](https://github.com/PaulZC/Data_Recovery_System/blob/master/PI.md)
 - The SAMD microcontroller should have been programmed with the correct Arduino code; the servo open/close positions set and the latching relay set OFF (which is only possible while the Pi is powered)
-- The microcontroller code should have been freshly installed. If a test drop has been performed, the code needs to be 'reset' either by re-uploading the code or by following the instructions below
+- The microcontroller code should have been freshly installed. If a test drop has been performed, the code needs to be 'reset' either by re-uploading the code or by following the [instructions below](https://github.com/PaulZC/Data_Recovery_System/blob/master/GoGoGo.md#step-10-resetting-the-microcontroller)
 
 ## Step 1: Apply power
 
@@ -77,13 +77,14 @@ Also included are instructions on how to reset the microcontroller from 'Gone' m
 - The DRS can also be configured to forward all messages to another RockBLOCK using the message: [RBDESTINATION=nnnnn]
 - where nnnnn is the RockBLOCK serial number (not the IMEI) of the 9603N you wish the messages to be forwarded to
 - Full details can be found on the [Iridium_9603_Beacon webpage](https://github.com/PaulZC/Iridium_9603_Beacon/blob/master/RockBLOCK.md#configuring-your-beacon-via-rockblock-operations)
+- The recovery team could use this to track the DRS and release the parachute from anywhere - [without an internet connection](https://github.com/PaulZC/Iridium_9603_Beacon/blob/master/RockBLOCK.md#tracking-your-beacon-without-an-internet-connection)
 
 ## Step 10: Resetting the microcontroller
 
 - Once the microcontroller has received a 'GoGoGo' message, a 'Gone' flag is set in flash memory. Resetting the microcontroller or disconnecting and reconnecting the batteries does not clear the flag
 - To reset the microcontroller into 'Waiting for Go' mode: press and hold the OPEN_A, CLOSE_A, OPEN_B and CLOSE_B buttons, then press and release the RESET button
 - Keep the OPEN_A, CLOSE_A, OPEN_B and CLOSE_B buttons pressed down until the NeoPixel goes green, then release them
-- The 'Gone' flag is now clear. The microcontroller returns to Step 5 
+- The 'Gone' flag is now clear. The microcontroller returns to [Step 5](https://github.com/PaulZC/Data_Recovery_System/blob/master/GoGoGo.md#step-5-check-the-gnss-fix-status)
 
 ## Step 11: Resetting the latching relay
 
