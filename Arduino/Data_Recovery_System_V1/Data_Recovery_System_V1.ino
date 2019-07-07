@@ -2,8 +2,8 @@
 // # Data Recovery System V1 #
 // ###########################
 
-//#define DRS1
-#define DRS2
+#define DRS1
+//#define DRS2
 //#define DRS3
 //#define DRS4
 //#define DRS5
@@ -67,26 +67,26 @@
 #endif
 #ifdef DRS3
 // Default values for DRS3
-  #define defServoOpenA 1500
-  #define defServoClosedA 1500
-  #define defServoOpenB 1500
-  #define defServoClosedB 1500
+  #define defServoOpenA 1744
+  #define defServoClosedA 1280
+  #define defServoOpenB 1651
+  #define defServoClosedB 1273
   #define RB_source 16363
 #endif
 #ifdef DRS4
 // Default values for DRS4
-  #define defServoOpenA 1500
-  #define defServoClosedA 1500
-  #define defServoOpenB 1500
-  #define defServoClosedB 1500
+  #define defServoOpenA 1985
+  #define defServoClosedA 1467
+  #define defServoOpenB 1719
+  #define defServoClosedB 1347
   #define RB_source 16365
 #endif
 #ifdef DRS5
 // Default values for DRS5
-  #define defServoOpenA 1500
-  #define defServoClosedA 1500
-  #define defServoOpenB 1500
-  #define defServoClosedB 1500
+  #define defServoOpenA 2035
+  #define defServoClosedA 1457
+  #define defServoOpenB 1833
+  #define defServoClosedB 1482
   #define RB_source 16369
 #endif
 
