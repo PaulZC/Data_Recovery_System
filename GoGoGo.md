@@ -43,8 +43,8 @@ Also included are [instructions](https://github.com/PaulZC/Data_Recovery_System/
 ## Step 6: Drop
 
 - 30 seconds before the desired drop time, run the script 'DRS_GoGoGo.py': python DRS_GoGoGo.py
-- Confirm with 'Y' or 'y'
-- The script sends a GoGoGo command to the microcontroller via the serial port
+- The script will append any incoming GNSS serial data to DRS_serial_log.txt for three seconds; the script then displays the tail of the log file
+- The script then sends a GoGoGo command to the microcontroller via the serial port
 - The script then shuts down the Pi (sudo shutdown now)
 - The microcontroller will wait 30 seconds and then open archery release A
 - The sounder will start to beep every 5 seconds
