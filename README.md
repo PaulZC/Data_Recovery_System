@@ -45,7 +45,7 @@ The [Arduino](https://github.com/PaulZC/Data_Recovery_System/tree/master/Arduino
 
 The [Drawings](https://github.com/PaulZC/Data_Recovery_System/tree/master/Drawings) directory contains the drawings for the trigger linkage.
 
-The [OpenSCAD](https://github.com/PaulZC/Data_Recovery_System/tree/master/OpenSCAD) directory contains the OpenSCAD and STL files for the 3D-printed cover.
+The [OpenSCAD](https://github.com/PaulZC/Data_Recovery_System/tree/master/OpenSCAD) directory contains the OpenSCAD and STL files for the 3D-printed cover, release crown/mount, and heatsink.
 
 The Python software tools which need to be installed on the Raspberry Pi can be found the [DRS_Python_Tools repo](https://github.com/PaulZC/DRS_Python_Tools).
 
